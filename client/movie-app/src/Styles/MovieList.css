@@ -1,0 +1,52 @@
+.col{
+
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(239, 236, 245);
+    float: left; 
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.row{
+    
+    row-gap:20px;
+    width:1300px;
+    height:750px; 
+
+    margin: 7px;
+    border-width:thick;
+}
+
+.col img {
+    padding:0%;
+    height:auto;
+    width: 200px;
+    height: 200px;
+}
+.col h4 {
+    padding:0%; 
+    margin: 0%;
+}
+.col p {
+    padding:0%; 
+    margin: 0%;
+    color: blue;
+    font: 13px
+}
+/* .col button{
+    margin-left: 10px;
+    width: 180px;
+    color: orange;
+    font: 18px bold;
+    border:1px solid blue;
+    border-radius: 10px;
+    background-color: rgb(224, 214, 244);
+} */
+
+.Favourites{
+    background:none; 
+    border:none; 
+}
