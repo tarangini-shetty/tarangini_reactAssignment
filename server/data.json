@@ -34493,5 +34493,60 @@
       "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjI3NjY1Mjg3MV5BMl5BanBnXkFtZTgwMzk5MDQ3MjE@._V1_SY500_CR0,0,340,500_AL_.jpg"
     }
   ],
-  "favourit": []
+  "favourit": [
+    {
+      "title": "Beast",
+      "year": "2017",
+      "genres": [
+        "Drama"
+      ],
+      "ratings": [
+        3,
+        3,
+        6,
+        3,
+        2,
+        9,
+        7,
+        4,
+        1,
+        4,
+        7,
+        4,
+        7,
+        6,
+        4,
+        8,
+        5,
+        8,
+        6,
+        6,
+        4,
+        2,
+        7,
+        4,
+        4,
+        1,
+        9,
+        2,
+        6,
+        2
+      ],
+      "poster": "MV5BYjJlMzU2YmMtYjlkOS00ZjMzLWFkOWMtZGZhY2IzZTc3Njk1XkEyXkFqcGdeQXVyNTQ1MTYzNzY@._V1_SY300_SX600_AL_.jpg",
+      "contentRating": "",
+      "duration": "PT107M",
+      "releaseDate": "2018-04-27",
+      "averageRating": 0,
+      "originalTitle": "",
+      "storyline": "A troubled woman living in an isolated community finds herself pulled between the control of her oppressive family and the allure of a secretive outsider suspected of a series of brutal murders.",
+      "actors": [
+        "Johnny Flynn",
+        "Jessie Buckley",
+        "Geraldine James"
+      ],
+      "imdbRating": 7.1,
+      "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYjJlMzU2YmMtYjlkOS00ZjMzLWFkOWMtZGZhY2IzZTc3Njk1XkEyXkFqcGdeQXVyNTQ1MTYzNzY@._V1_SY300_SX600_AL_.jpg",
+      "id": 1
+    }
+  ]
 }
