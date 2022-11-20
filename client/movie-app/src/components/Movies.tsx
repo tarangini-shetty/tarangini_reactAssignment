@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react'
 import {getMoviesFromServer, addMovieToFavouritesInServer, removeMovieFromFavouritesInServer, getMovieFavourites} from '../services/movies'
 import "../Styles/MovieList.css"
-import "../Styles/AddFavourites.css"
+// import "../Styles/AddFavourites.css"
 import { useLocation } from "react-router-dom"
 import { useNavigate } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
@@ -10,7 +10,11 @@ import { ToastContainer, toast} from 'react-toastify';
 const Movies = (searchValue: any ) => {
     const toastId = React.useRef(1);
     const location = useLocation()
-    const tabName = location.state?.tab
+    let tabName = location.state?.tab
+    if (tabName === undefined )
+    { 
+        tabName= 'movies-in-theaters'
+    }
     const navigate = useNavigate();
     const searchText = searchValue.searchValue
     console.log(tabName)
@@ -102,8 +106,10 @@ const Movies = (searchValue: any ) => {
             moviesData.map((movie) => {
                 return(
                     <div className="col" >
-                        <img src={movie.posterurl} onClick={() => imageClick(movie)} alt='movie'></img> 
-                        <p>{movie.title}</p>
+                        <div className="image-class">
+                            <img src={movie.posterurl} onClick={() => imageClick(movie)} alt='movie'></img> <br/>
+                        </div>
+                        <p>{movie.title}</p> <br/>
                         {(() => {
                             if (tabName == "favourit") {
                                 return (
