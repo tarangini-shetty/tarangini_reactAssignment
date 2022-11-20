@@ -3,7 +3,7 @@ import axios from "axios"
 export const getMoviesFromServer = async(movieListType : string, search : string) => {
     console.log("test")
     console.log(search)
-    if ( search == undefined)
+    if ( search == undefined ||  search == '')
     {
         const Api = "http://localhost:4001/" + movieListType
         return await axios.get(Api).then(res => res.data)
